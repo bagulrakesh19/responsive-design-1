@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:965px){
+    .container{
+        background-color: #F0F5EF;
+        width: 900px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 14px;
+        
+        height: 427px;
+    }
+    
+    .container-img{
+        width: 700px;
+        border-radius: 20px;
+        height: 350px;
+        object-fit: cover;
+    }
+    
+    .container-wrap{
+        width: 500px;
+        /* position: absolute; */
+        margin: auto;
+        /* height: 350px; */
+        object-fit: cover;
+    }
+    .container-heading{
+        font-size: 2.5em;
+    }
+    .updated-time{
+        padding: 1em 1.5em;
+        background-color: #DBEAE3;
+        width: 10rem;
+        margin: auto;
+        border-radius: 1.2em;
+    }
+    
+}
+
+@media (min-width:601px) and (max-width:964px){
+    .container {
+        background-color: #F0F5EF;
+        width: 601px;
+        margin: 30px auto;
+        /* overflow: hidden; */
+        padding: 20px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 14px;
+        height: 366px;
+    }
+    
+    .container-img{
+        width: 90%;
+        border-radius: 20px;
+        height: 60%;
+        object-fit: cover;
+    }
+    
+    .container-wrap{
+        width: 500px;
+        /* position: absolute; */
+        margin: auto;
+        /* height: 350px; */
+        object-fit: cover;
+    }
+    .container-heading{
+        font-size: 2.5em;
+    }
+    .updated-time{
+        padding: 1em 1.5em;
+        background-color: #DBEAE3;
+        width: 10rem;
+        margin: auto;
+        border-radius: 1.2em;
+    }
+    
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .container {
+        background-color: #F0F5EF;
+        width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 8px;
+        height: 310px;
+    }
+    .container-img {
+        width: 90%;
+        border-radius: 20px;
+        /* height: 350px; */
+        object-fit: cover;
+    }
+    
+    .container-wrap {
+        width: 19em;
+        /* position: absolute; */
+        margin: auto;
+        /* height: 350px; */
+        object-fit: cover;
+    }
+    .container-heading{
+        font-size: 1.5em;
+    }
+    .updated-time {
+        padding: 1em .75em;
+        background-color: #DBEAE3;
+        width: 7rem;
+        margin: auto;
+        border-radius: 1.2em;
+    }
+    
+}
+}
